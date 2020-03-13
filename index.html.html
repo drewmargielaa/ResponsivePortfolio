@@ -10,6 +10,8 @@
 <title>Responsive Portfolio</title>
 </head>
 <body>
+    
+  <!-- Navbar -->
     <nav class="navbar navbar-dark bg-dark">
         
         <a class="navbar-brand" href="#">Navbar</a>
@@ -19,13 +21,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacts</a>
+              <a class="nav-link" href="#contact">Contacts</a>
             </li>
             
           </ul>
@@ -34,25 +36,76 @@
       
       
       
+      <!-- Grid System -->
       
-      <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                Home
+            <div id="Home" class="row.md">
+              <div class="jumbotron">
+                
+                <h1 class="display-4">
+                  Andrew's Portfolio
+                </h1>
+                </div>
               </div>
-            </div>
 
-            <div class="row">
-              <div class="col-sm">
+            <div id="Portfolio" class="row.md">
+              <h2 class="display-4">
                 Portfolio
+              </h2>
+              <div>
+                <div class="row">
+                  
+                  </div>
+
+                <div class="row"> 
+                  a
+               </div>
               </div>
-            </div>
+
+
+            
+            
 
             
             <div class="row">
               <div class="col-sm">
-                Contacts
+                <table id="Contact" class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Contact Info</th>
+                     
+                      
+                       </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Name</th>
+                      <td>Andrew Souza</td>
+                      
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">Phone Number</th>
+                      <td>201-702-9066</td>
+                      
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">Email</th>
+                      <td colspan="2"><a href = "mailto: drewmargielaa@gmail.com">Send Email</a></td>
+                      
+                    </tr>
+  
+                    <tr>
+                      <th scope="row">Linkedin</th>
+                      <td colspan="2"><a href="https://www.linkedin.com/in/andrew-souza-4a31aa1a2/">Linkedin Profile</a>
+                      </td>
+                      
+                    </tr>
+                  </tbody>
+                </table>
               </div>
+
+              
             </div>
              
             </div>
